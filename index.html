@@ -1,9 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Ночная смена</title>
+  <style>
+    h1, ul, p{
+      padding-inline-start: 0;
+      margin-block-start: 0;
+      margin-block-end: 0;
+    }
+    .home {
+      background: #141b23 url(assets/images/bg.png) no-repeat fixed right top;
+      padding-left: 55px;
+      margin: 0;
+    }
+    .header-nav {
+      margin: 65px 0;
+    }
+    .header-nav__list {
+        list-style-type: none;
+    }
+    .header-nav__text {
+      font-size: 15px;
+      color: rgba(177, 187, 203, 0.87);
+      line-height: 18px;
+      text-align: left;
+      text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.65);
+      text-decoration: none;
+    }
+    .header-nav__text-current {
+      font-size: 17px;
+      inline: 20.4px;
+    }
+    .main__wrapper {
+      padding-left: 40px;
+      margin-top: 71px;
+      margin-bottom: 198px;
+      width: 467px;
+    }
+    .main__h1 {
+      font-size: 25px;
+      color: rgba(255, 255, 255, 1);
+      line-height: 30px;
+      text-align: left;
+      text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.65);
+      margin: 10px 0;
+    }
+    .main__text {
+      font-size: 13px;
+      color: rgba(255, 255, 255, 1);
+      line-height: 15.6px;
+      text-align: left;
+      text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.65);
+      margin: 10px 0;
+    }
+    footer {
+      margin: 50px 0;
+    }
+    .copyright__text {
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.27);
+      line-height: 14.4px;
+    }
+  </style>
 </head>
-<body>
+<body class="home">
+  <header>
+    <nav class="header-nav">
+      <ul class="header-nav__list">
+        <li class="header-nav__list-current ">
+          <a href="#" class="header-nav__text">UM</a>
+        </li>
+        <li>
+          <a href="#" class="header-nav__text">Author</a>
+        </li>
+        <li>
+          <a href="#" class="header-nav__text">Album</a>
+        </li>
+        <li>
+          <a href="#" class="header-nav__text">Technology</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="main__wrapper">
+      <h1 class="main__h1">Ночная смнена</h1>
+      <article class="main__text">
+        <p>
+          Холл с наслаждением затягивался сигаретой, развалившись на  небольшой
+          скамье недалеко от элеватора.  Скамья  эта  была  единственным  местом  на
+          третьем этаже, где можно было спокойно перекурить и ненадолго отвлечься от
+          работы, не опасаясь появления начальства.
+        </p>
+        <br>
+        <p>
+          Именно в этот момент и  появился зловредный  Уорвик.  Холл  совершенно
+          не  ожидал  увидеть шефа и был, естественно, совсем не рад  этой  неожиданной
+          встрече,  рассчитывая, что Уорвик может появиться там никак не раньше трех.
+          Да и вообще,  он редко показывался на рабочих местах во время ночной
+          смены. Особенно на третьем этаже. В это время он предпочитал, обычно,
+          отсиживаться
+          в  своем офисе попивать кофе из своего любимого электрического кофейника,
+          который стоял у него прямо на рабочем столе. Кроме того, в последнее время
+          стояла  ужасная жара и, в связи с этим, выше первого этажа Уорвик обычно не поднимался.
+        </p>
+      </article>
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="copyright__text">
+      © 2003-2008 UlinMusic
+    </p>
+  </footer>
 </body>
 </html>
