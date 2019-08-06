@@ -16,9 +16,14 @@
     }
     .header-nav {
       margin: 65px 0;
+
     }
     .header-nav__list {
         list-style-type: none;
+
+    }
+    li {
+      display: inline-block;
     }
     .header-nav__text {
       font-size: 15px;
@@ -68,16 +73,16 @@
   <header>
     <nav class="header-nav">
       <ul class="header-nav__list">
-        <li class="header-nav__list-current ">
+        <li class="header-nav__li header-nav__list-current">
           <a href="#" class="header-nav__text">UM</a>
         </li>
-        <li>
+        <li class="header-nav__li">
           <a href="#" class="header-nav__text">Author</a>
         </li>
-        <li>
+        <li class="header-nav__li">
           <a href="#" class="header-nav__text">Album</a>
         </li>
-        <li>
+        <li class="header-nav__li">
           <a href="#" class="header-nav__text">Technology</a>
         </li>
       </ul>
